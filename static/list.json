@@ -1,0 +1,74 @@
+{
+  "listed" : [
+    {
+      "id" : 0,
+      "descriptions": "Je vous présente les projets fait pendant le cursus.Aussi bien personnel que pendant les cours",
+      "case" : [
+        {
+          "id" : 0,
+          "name" : "Farse 2020",
+          "description" : "Projet Web visant à faire une carte du Festival des Arts de la rue 2020 avec le plus d'information possible",
+          "path" : "/project?id=2"
+        }
+      ]
+    },{
+      "id" : 1,
+      "descriptions": "L'épreuve E4 permet de vérifier que l'étudiant à une bonne capacité de raisonnement en le testant sur un projet fait pendant son parcour. Pendant une durée de 1h30. 45 minutes pendant lesquelles l'étudiant va se préparer. Faire un résonnement sur un sujet. et 30 minutes pendant lesquelles il va décrire la solution à la problématique",
+      "case" : [
+        {
+          "id" : 0,
+          "name" : "Création d'un module d'authentification avec l'API de google",
+          "description" : "Documentation pour créer un module d'authentification avec l'API de Google et expressJs",
+          "path" : "/project?id=3"
+        }
+      ]
+    },{
+      "id" : 2,
+      "descriptions": "L'épreuve E6 permet de confronter l'étudiant à son stage. et d'expliquer son parcours professionel. Elle permet aussi de présenter la veille technologique. Elle dure 40 minutes et permet de vraiment prouver le professionnalisme de l'étudiant",
+      "case" : [
+        {
+          "id" : 0,
+          "name" : "Créer une simple Blockchain en TypeScript\n",
+          "description" : "Documentation pour créer créer une simple Blockchain en TypeScript",
+          "path" : "/project?id=4"
+        },{
+          "id" : 1,
+          "name" : "Création d'un pipeline entre un repository local et un serveur web",
+          "description" : "Documentation pour créer un pipeline entre un repository local et un serveur web\n\n",
+          "path" : "/project?id=5"
+        },{
+          "id" : 2,
+          "name" : "Création d'une Documentation pour les outils utilisé par l'association SAMU de l'environnement",
+          "description" : "Documentation à propos des outils utilisé par l'association SAMU de l'environnement\n\n",
+          "path" : "/project?id=6"
+        }
+      ]
+    },{
+      "id" : 3,
+      "descriptions": "Cum solem resistere, omnes lunaes carpseris primus, superbus cottaes.",
+      "case" : [
+        {
+          "id" : 0,
+          "name" : "projet 1",
+          "description" : "Urbs ferox resistentia est.Domus germanus cursus est.",
+          "path" : "/project?id=1"
+        },{
+          "id": 1,
+          "name" : "projet 1",
+          "description" : "Urbs ferox resistentia est.Domus germanus cursus est.",
+          "path" : "/project?id=1"
+        },{
+          "id" : 2,
+          "name" : "projet 1",
+          "description" : "Urbs ferox resistentia est.Domus germanus cursus est.",
+          "path" : "/project?id=1"
+        },{
+          "id" : 3,
+          "name" : "projet 1",
+          "description" : "Urbs ferox resistentia est.Domus germanus cursus est.",
+          "path" : "/project?id=1"
+        }
+      ]
+    }
+  ]
+}
