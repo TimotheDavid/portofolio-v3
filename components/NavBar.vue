@@ -1,4 +1,4 @@
-<template>
+-if<template>
   <div id="navbar" class="flex flex-col items-center bg-blue-700 md:flex-row md:justify-between md:pr-4 md:pl-4 md:items-center">
     <div id="logo" class="mb-5 mt-5 text-white font-sans text-2xl md:text-3xl">
       Timothé David
@@ -9,7 +9,7 @@
           <NuxtLink to="/">{{nav.label}}</NuxtLink>
         </div>
         <div v-else-if="nav.type === 'list'">
-          <NuxtLink :to="{name: 'list', params: {id:nav.id}}">{{nav.label}} {{nav.id}}</NuxtLink>
+          <NuxtLink :to="{name:'list',params:{id:nav.id}}">{{nav.label}} {{nav.id}}</NuxtLink>
         </div>
         <div v-else-if="nav.type === 'project'">
           <NuxtLink :to="{name: 'project', params:{id: nav.id}}">{{nav.label}} {{nav.id}}</NuxtLink>
@@ -29,15 +29,15 @@ export default {
         {
           "id" : 0,
           "label":  "A propos",
-          "type" : "main"
+          "type" : 'main'
         },{
           "id" : 1,
           "label":  "Veille technologique",
-          "type": "project"
+          "type": 'project'
         },{
           "id" : 2,
           "label":  "Veille Juridique",
-          "type" : "project"
+          "type" : 'project'
         },{
           "id" : 3,
           "label":  "Projet",
